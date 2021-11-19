@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         dangerouslySetAllPagesToNoIndex={true}
       />
       <div css={tw`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2`}>
-        <h1 css={tw`text-3xl font-semibold`}>Coming soon...</h1>
+        <h1 css={tw`text-3xl font-semibold whitespace-nowrap`}>Coming soon...</h1>
       </div>
       <Component {...pageProps} />
     </>
